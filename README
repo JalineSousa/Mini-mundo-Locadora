@@ -1,0 +1,39 @@
+	Um Vídeo Clube deseja controlar o empréstimo de fitas a seus sócios. Atualmente o controle de empréstimo é feito 
+utilizando dois conjuntos de fichas: 
+o das informações dos sócios e o das informações das cópias, 
+no qual se controla também os empréstimos. 
+
+***Nas fichas dos sócios constam as seguintes informações:
+ 
+número de inscrição 
+nome 
+endereço 
+telefone 
+
+***Nas fichas das cópias estão registrados: 
+
+código de identificação da fita 
+título do filme 
+duração 
+ano 
+gênero 
+nome do diretor 
+2 (dois) dos artistas principais 
+data de aquisição 
+estado da fita (bom ou ruim) 
+***além de uma lista de empréstimos com: 
+
+número de inscrição do sócio 
+data do empréstimo 
+data da devolução 
+e valor pago. 
+
+	Estes dois últimos são preenchidos quando a cópia é devolvida.
+Nesta locadora existem vários filmes com várias cópias, e cada cópia recebe uma etiqueta com um código, por exemplo: 5.315
+(como se fosse o número do CONCINE, único para cada cópia original).
+	Um empréstimo é valido por 72 horas no máximo e possui preço fixo. A locadora pretende colocar terminais de consulta em sua loja,
+ possibilitando seus sócios a escolha de filmes a partir do gênero, diretor ou dos artistas prediletos. 
+	Não é aceita reserva e todos os pagamentos são feitos no momento da devolução. Se o sócio atrasar a devolução deverá pagar multa.
+	A gerência deseja que o sistema forneça um relatório de todos os filmes que possui, informando a quantidade de cópias por filme, 
+além de relatórios de filmes por gênero, diretor e artista. Ela deseja também uma lista das cópias em mal estado e outra de sócios 
+inadimplentes. Existe interesse em manter um controle sobre diretores e artistas com nome, país de origem e data de nascimento de cada um.
